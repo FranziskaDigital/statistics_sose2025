@@ -1,0 +1,280 @@
+---
+title: "Übung Modul 6"
+subtitle: "Grundlagen der quantitativen Analyse und Visualisierung digitaler Information <br></br> 16. April 2025"
+format: revealjs
+footer: |
+      **Dr. Franziska Klemstein** | © 2025 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+output-dir: docs
+
+---
+# {.smaller}
+<h1 style="font-size:2.0em">Überblick I</h1>
+<br>
+
+|Termin|Thema|Projekt|
+|------|-----|-----|
+|16.04.|Einführung & Installationen| - |
+|23.04.|Empirische Forschung und Kulturerbe| - |
+|(30.04.)| – entfällt  – | - |
+|07.05.|Häufigkeitsverteilungen||
+|14.05.|Mittelwerte und Streuung||
+|21.05.|Stichprobe und Grundgesamtheit||
+|28.05.|Hypothesentesten||
+
+# {.smaller}
+<h1 style="font-size:2.0em">Überblick II</h1>
+<br>
+
+|Termin|Thema|Projekt|
+|------|-----|-----|
+|04.06.|Darstellungstechniken und Datenaufbereitung||
+|11.06.|UNESCO-Datensatz mit Python I| - |
+|18.06.|UNESCO-Datensatz mit Python II| - |
+|25.06.|UNESCO-Datensatz mit R I| - |
+|02.07.|UNESCO-Datensatz mit R II| - |
+|09.07.|UNESCO-Datensatz mit QGIS| - |
+|16.07.|Abschlusssitzung| - |
+
+# Tools
+
+## {.smaller}
+<h2 style="font-size:1.6em"> R: Programmiersprache und Entwicklungsumgebung</h2>
+<br></br>
+<div style="display: flex; justify-content: center; gap: 2em; align-items: center;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Logo" width="300">
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg" alt="RStudio Logo" width="500">
+</div>
+<br></br>
+<p style="text-align: center; font-size: 0.8em; margin-top: 0.5em;">
+  Quelle: <a href="https://www.r-project.org/">Das R Project</a> und <a href="https://posit.co/download/rstudio-desktop/">R Studio</a>.
+</p>
+
+
+##
+
+<span style="font-size: 42px;">Installation Linux</span>
+
+<ol>
+<li>Installation von R</li>
+
+```
+sudo apt install r-base
+
+```
+
+<img src="img/install_r.png" alt="Installation von R">
+
+<li>Installation von RStudio</li>
+
+Download der entsprechenden Installationsdatei: 
+<a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a>
+
+</ol>
+
+---
+
+Überprüfung ob R installiert ist und in welcher Version:
+<img src="img/Linux_R.png">
+<img src="img/Linux_rstudio.png">
+
+<p style="text-align: center; font-size: 0.8em; margin-top: 0.5em;">
+  Überprüfung der Installation von R (oben) RStudio (unten).
+</p>
+
+
+
+##
+
+<span style="font-size: 42px;">Installation Mac</span>
+
+<ol>
+<li>Installation von R</li>
+
+<img src="img/install_r.png" alt="Installation von R">
+
+<li>Installation von RStudio</li>
+
+```
+# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/
+
+```
+
+</ol>
+
+---
+
+Überprüfung ob R installiert ist und in welcher Version:
+
+<img src="img/r-version.png" alt="Überprüfung R Version">
+
+---
+
+RStudio installieren:
+<img src="img/install_rstudio_mac.png" alt="RStudio auf Mac">
+
+##
+
+<span style="font-size: 42px;">Installation Windows</span>
+
+<ol>
+<li>Installation von R</li>
+
+<img src="img/Download_R_Win.png" width="400">
+<img src="img/Install_exe.png" width="200">
+<img src="img/R_GUI_Win.png" width="350">
+
+<li>Installation von RStudio</li>
+
+```
+# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/
+
+```
+
+</ol>
+
+
+## {.smaller}
+<h2 style="font-size:1.6em">Python</h2>
+<br></br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="300">
+
+Programmiersprache Python und Entwicklungsumgebung <a href="https://en.wikipedia.org/wiki/Project_Jupyter">"Project Jupyter"</a>.
+
+## {.smaller}
+<h2 style="font-size:1.6em">QGIS: Freie Geoinformationssystem-Software</h2>
+
+<img src="https://qgis.org/img/logosign.svg" alt="QGIS">
+
+<a href="https://www.qgistutorials.com/en/">QGIS Einsteiger-Tutorials</a>
+
+## {.smaller}
+
+Installation Linux, Mac und Windows
+
+<img src="img/Download_QGIS.png" width=500>
+<p style="text-align: center; font-size: 0.8em; margin-top: 0.5em;">
+<a href="https://qgis.org/download/">Download-Seite von QGIS</a>
+</p>
+
+
+
+# Einführung
+
+## {.smaller}
+<h2 style="font-size:1.2em">Empirische Forschung und Quantitative Analysen</h2>
+
+* empirisch Adj. ‘auf Erfahrung beruhend’, entlehnt aus lat. empīricus ‘der Erfahrung folgend’ (nur substantiviert und nur in bezug auf Ärzte und Heilkunde) [...]. Vereinzelt seit dem 16. Jh. bezeugt, zunächst vielfach geringschätzig auf Heilkundige bezogen, die ihre Kenntnisse als Praktiker erwerben, dann (2. Hälfte 18. Jh.) Fachwort der Philosophie und Wissenschaftssprache.
+
+* Empirie f. ‘Erfahrung, auf Beobachtung der Tatsachen beruhende Erkenntnismethode’, entlehnt (Mitte 18. Jh.) aus spätlat. empīria, griech. empeiría (ἐμπειρία) ‘Erfahrung, durch Erfahrung gewonnene Einsicht, Kenntnis’ [...]. <br><small>Quelle: <a href="https://www.dwds.de/wb/Empirie">https://www.dwds.de/wb/Empirie</a></small>
+
+*  quantitativ Adj. ‘im Hinblick auf Menge, Anzahl, Umfang, zahlen-, mengenmäßig’ (19. Jh.), lat. quantitātīvus. 
+
+*  Quantität f. ‘Menge, Anzahl, Volumen’, im 16. Jh. aus lat. quantitās (Genitiv quantitātis) ‘Größe, Menge, Summe’, einer Ableitung von lat. quantus (s. Quantum), zunächst in die Fachsprache der Mathematik und der Kaufmannschaft entlehnt, danach allgemein. <small>Quelle: <a href="https://www.dwds.de/wb/quantitativ">https://www.dwds.de/wb/quantitativ</a></small>
+
+
+## {.smaller}
+<h2 style="font-size:1.2em">Quantitative Analysen</h2>
+
+* Quantitative Analysemethoden sind in erster Linie darauf ausgerichtet, Merkmale von Forschungsgegenständen zu identifizieren und ihre Häufigkeiten zu ergeben. Das beduetet, dass es möglichst eindeutige und teils auch Komplexität reduzierende Kategorisierungen erfordert, um auf dieser Grundlage statistische Verfahren anwenden zu können. Quantitative Analysen zielen darauf ab, relevante Bestandteile eines Datensatzes oder Strukturen in Daten zu identifizieren sowie weiterführende statistische Auswertungen von Datensammlungen durchzuführen. <br>
+
+<small>Quelle: Vgl. Christoph Schöch: Quantitative Analysen, in: Fotis Jannidis et al.: Digital Humanities, Stuttgart 2017, S. 279.</small>
+
+## {.smaller}
+<h2 style="font-size:1.2em">Quantitative Methoden</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Quantitative_methods.png"alt="Quantitative Methoden"/>
+
+<small>Bildquelle: <a href="https://en.wikibooks.org/wiki/User:Remydiligent1/sandbox#Types_of_Quantitative_Methods">Remy Diligent: Types of Quantitative Methods.</small>
+
+
+## {.smaller}
+
+<h2 style="font-size:1.2em">Franco Moretti Distant Reading & Andrew Piper There Will Be Numbers</h2>
+
+::: columns
+:::: column
+<img src="https://www.wallstein-verlag.de/media/cover/9783835390768l.png" width="60%">
+::::
+
+:::: column
+<img src="img/Piper_ThereWillBeNumbers.png" width="100%">
+::::
+:::
+<small>
+<a href="https://ubmz.hds.hebis.de/Record/HEB319188922">Franco Moretti: Distant Reading, London 2013.</a> Sowie: <a href="https://culturalanalytics.org/article/11062-there-will-be-numbers">Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016.</small>
+
+## {.smaller}
+<h2 style="font-size:1.2em">Der Mythos der „zwei Kulturen“</h2> 
+
+* <a href="https://archive.org/details/twoculturesscien0000cpsn_z5z5">Veröffentlichung</a> von Charles Percy Snow von 1959
+* relativ pessimisstische Weltsicht auf „zwei Galaxien“, die sich scheinbar unvereinbar gegenüberstehen  
+* Ausgangspunkt: "Scientific Revolution"
+* geprägt von den Ereignissen und Folgen des Zweiten Weltkriegs
+* Grundproblem: Bildungssystem
+* Intellektuelle als Technikverweigerer
+
+
+## {.smaller}
+<h2 style="font-size:1.2em">Heuristik & Hermeneutik</h2>
+
+* „Die **heuristische** Methode ist ein Vorgehen zur Lösung von Problemen durch systematisches Erproben“ (Quelle: Schaub, Horst u. Zenke, Karl G.: Heuristik. In: dtv-Wörterbuch Pädagogik, Berlin: Directmedia 2002 [1995])
+
+* Die **Hermeneutik** ist ein Verfahren der Auslegung und Deutung zum Verständnis von Schriften und Kunstwerken (Quelle: Vgl.: Etymologisches Wörterbuch (Wolfgang Pfeifer))
+
+
+# UNESCO-Datensatz
+
+## {.smaller}
+<h2 style="font-size:1.2em">Was ist die UNESCO?</h2>
+
+* UNESCO = United Nations Educational, Scientific and Cultural Organization
+* Gründung erfolgte am 16.11.1945 in London
+* „The Governments of the States Parties to this Constitution on behalf of their peoples declare: [...] That the wide diffusion of culture, and the education of humanity for justice and liberty and peace are indispensable to the dignity of man and constitute a sacred duty which all the nations must fulfil in a spirit of mutual assistance and concern.“ (Quelle: <a href="https://www.unesco.org/en/legal-affairs/constitution?hub=171411">UNESCO</a>) 
+
+## {.smaller}
+<h2 style="font-size:1.2em">Was ist die Deutsche UNESCO Kommission (DUK)?</h2>
+
+* Gründung: 1950, zunächst als Ausschuss für UNESCO-Arbeit, 1951 dann Umbenennung in Deutsche UNESCO Kommission
+* Schnittstelle zwischen Regierung, Zivilgesellschaft und der UNESCO
+* stellt sicher, dass UNESCO-Völkerrecht und UNESCO-Programme in Deutschland ihre Wirkung entfalten, und trägt dazu bei, dass die Interessen der Bundesrepublik erfolgreich in der UNESCO eingebracht werden
+* gefördert vom Auswärtigen Amt 
+* Aufgaben: beraten, vernetzen, vermitteln
+* „Erfurter Erklärung“ vom 21. Juni 2024
+
+Quelle: https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/
+
+## {.smaller}
+<h2 style="font-size:1.2em">Was ist „Welterbe“?</h2>
+
+* UNESCO-Konvention von 1972: <a href="https://www.unesco.de/assets/dokumente/Deutsche_UNESCO-Kommission/02_Publikationen/Publikation_%C3%9Cbereinkommen_zum_Schutz_des_Kultur-_und_Naturerbes_der_Welt.pdf">„Übereinkommen zum Schutz des Kultur- und Naturerbes der Welt“</a>
+* Selbstverpflichtung der Vertragsstaaten
+* ratifiziert von 196 Staaten <a href="https://whc.unesco.org/pg.cfm?cid=246">(Stand: 2024)</a>
+* Die Bundesrepublik Deutschland ratifizierte die Konvention 1976
+* Die DDR ratifizierte die Konvention 1988
+* Artikel 1 definiert den Begriff des „Kulturerbes“
+* Artikel 2 definiert den Begriff des „Naturerbes“
+
+## {.smaller}
+
+<h2 style="font-size:1.2em">Woher stammt der Datensatz?</h2>
+* Offizielles UNESCO-Dataset von: <a href="https://ihp-wins.unesco.org/dataset/unesco-world-heritage-sites">https://ihp-wins.unesco.org/dataset/unesco-world-heritage-sites</a>
+* Autor:innen: Chloé Meyer (Creator) und Pablo Rojas (Maintainer)
+* enthält keine weiteren Metadaten-Angaben
+
+##
+
+<img src="img/UNESCO-Dataset_Map.png" width="700">
+<img src="img/UNESCO-Dataset_Attributtabelle.png" width="600">
+
+<small>Dataset-Inhalt. Shapefile für Geoinformationssysteme mit Attributen.</small>
+
+# Seminarziele
+
+
+
+
+
+
+
