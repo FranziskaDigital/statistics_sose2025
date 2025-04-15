@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-2",
+    "href": "SoSe2025-Statistik_01.html#section-2",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "R: Programmiersprache und Entwicklungsumgebung\n\n\n\n\n\n\n\n\nQuelle: Das R Project und R Studio."
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-3",
+    "href": "SoSe2025-Statistik_01.html#section-3",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Installation Linux\n\n\nInstallation von R\n\nsudo apt install r-base\n\n\n\nInstallation von RStudio\n\nDownload der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-4",
+    "href": "SoSe2025-Statistik_01.html#section-4",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Installation Mac\n\n\nInstallation von R\n\n\n\nInstallation von RStudio\n\n# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-5",
+    "href": "SoSe2025-Statistik_01.html#section-5",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Installation Windows\n\n\nInstallation von R\n\n  \n\nInstallation von RStudio\n\n# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-6",
+    "href": "SoSe2025-Statistik_01.html#section-6",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Python\n\n  \nProgrammiersprache Python und Entwicklungsumgebung “Project Jupyter”."
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-7",
+    "href": "SoSe2025-Statistik_01.html#section-7",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "QGIS: Freie Geoinformationssystem-Software\n\n\nQGIS Einsteiger-Tutorials"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-8",
+    "href": "SoSe2025-Statistik_01.html#section-8",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Installation Linux, Mac und Windows\n\n\nDownload-Seite von QGIS"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-9",
+    "href": "SoSe2025-Statistik_01.html#section-9",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Empirische Forschung und Quantitative Analysen\n\n\nempirisch Adj. ‘auf Erfahrung beruhend’, entlehnt aus lat. empīricus ‘der Erfahrung folgend’ (nur substantiviert und nur in bezug auf Ärzte und Heilkunde) […]. Vereinzelt seit dem 16. Jh. bezeugt, zunächst vielfach geringschätzig auf Heilkundige bezogen, die ihre Kenntnisse als Praktiker erwerben, dann (2. Hälfte 18. Jh.) Fachwort der Philosophie und Wissenschaftssprache.\nEmpirie f. ‘Erfahrung, auf Beobachtung der Tatsachen beruhende Erkenntnismethode’, entlehnt (Mitte 18. Jh.) aus spätlat. empīria, griech. empeiría (ἐμπειρία) ‘Erfahrung, durch Erfahrung gewonnene Einsicht, Kenntnis’ […]. Quelle: https://www.dwds.de/wb/Empirie\nquantitativ Adj. ‘im Hinblick auf Menge, Anzahl, Umfang, zahlen-, mengenmäßig’ (19. Jh.), lat. quantitātīvus.\nQuantität f. ‘Menge, Anzahl, Volumen’, im 16. Jh. aus lat. quantitās (Genitiv quantitātis) ‘Größe, Menge, Summe’, einer Ableitung von lat. quantus (s. Quantum), zunächst in die Fachsprache der Mathematik und der Kaufmannschaft entlehnt, danach allgemein. Quelle: https://www.dwds.de/wb/quantitativ"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-10",
+    "href": "SoSe2025-Statistik_01.html#section-10",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Quantitative Analysen\n\n\nQuantitative Analysemethoden sind in erster Linie darauf ausgerichtet, Merkmale von Forschungsgegenständen zu identifizieren und ihre Häufigkeiten zu ergeben. Das beduetet, dass es möglichst eindeutige und teils auch Komplexität reduzierende Kategorisierungen erfordert, um auf dieser Grundlage statistische Verfahren anwenden zu können. Quantitative Analysen zielen darauf ab, relevante Bestandteile eines Datensatzes oder Strukturen in Daten zu identifizieren sowie weiterführende statistische Auswertungen von Datensammlungen durchzuführen. \n\nQuelle: Vgl. Christoph Schöch: Quantitative Analysen, in: Fotis Jannidis et al.: Digital Humanities, Stuttgart 2017, S. 279."
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-11",
+    "href": "SoSe2025-Statistik_01.html#section-11",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Quantitative Methoden\n\n\nBildquelle: Remy Diligent: Types of Quantitative Methods."
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-12",
+    "href": "SoSe2025-Statistik_01.html#section-12",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Franco Moretti Distant Reading & Andrew Piper There Will Be Numbers\n\n\n\n\n\n\n\n\n Franco Moretti: Distant Reading, London 2013. Sowie: Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016."
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-13",
+    "href": "SoSe2025-Statistik_01.html#section-13",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Der Mythos der „zwei Kulturen“\n\n\nVeröffentlichung von Charles Percy Snow von 1959\nrelativ pessimisstische Weltsicht auf „zwei Galaxien“, die sich scheinbar unvereinbar gegenüberstehen\n\nAusgangspunkt: “Scientific Revolution”\ngeprägt von den Ereignissen und Folgen des Zweiten Weltkriegs\nGrundproblem: Bildungssystem\nIntellektuelle als Technikverweigerer"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-14",
+    "href": "SoSe2025-Statistik_01.html#section-14",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Heuristik & Hermeneutik\n\n\n„Die heuristische Methode ist ein Vorgehen zur Lösung von Problemen durch systematisches Erproben“ (Quelle: Schaub, Horst u. Zenke, Karl G.: Heuristik. In: dtv-Wörterbuch Pädagogik, Berlin: Directmedia 2002 [1995])\nDie Hermeneutik ist ein Verfahren der Auslegung und Deutung zum Verständnis von Schriften und Kunstwerken (Quelle: Vgl.: Etymologisches Wörterbuch (Wolfgang Pfeifer))"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-15",
+    "href": "SoSe2025-Statistik_01.html#section-15",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Was ist die UNESCO?\n\n\nUNESCO = United Nations Educational, Scientific and Cultural Organization\nGründung erfolgte am 16.11.1945 in London\n„The Governments of the States Parties to this Constitution on behalf of their peoples declare: […] That the wide diffusion of culture, and the education of humanity for justice and liberty and peace are indispensable to the dignity of man and constitute a sacred duty which all the nations must fulfil in a spirit of mutual assistance and concern.“ (Quelle: UNESCO)"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-16",
+    "href": "SoSe2025-Statistik_01.html#section-16",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Was ist die Deutsche UNESCO Kommission (DUK)?\n\n\nGründung: 1950, zunächst als Ausschuss für UNESCO-Arbeit, 1951 dann Umbenennung in Deutsche UNESCO Kommission\nSchnittstelle zwischen Regierung, Zivilgesellschaft und der UNESCO\nstellt sicher, dass UNESCO-Völkerrecht und UNESCO-Programme in Deutschland ihre Wirkung entfalten, und trägt dazu bei, dass die Interessen der Bundesrepublik erfolgreich in der UNESCO eingebracht werden\ngefördert vom Auswärtigen Amt\nAufgaben: beraten, vernetzen, vermitteln\n„Erfurter Erklärung“ vom 21. Juni 2024\n\nQuelle: https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-17",
+    "href": "SoSe2025-Statistik_01.html#section-17",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Was ist „Welterbe“?\n\n\nUNESCO-Konvention von 1972: „Übereinkommen zum Schutz des Kultur- und Naturerbes der Welt“\nSelbstverpflichtung der Vertragsstaaten\nratifiziert von 196 Staaten (Stand: 2024)\nDie Bundesrepublik Deutschland ratifizierte die Konvention 1976\nDie DDR ratifizierte die Konvention 1988\nArtikel 1 definiert den Begriff des „Kulturerbes“\nArtikel 2 definiert den Begriff des „Naturerbes“"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-18",
+    "href": "SoSe2025-Statistik_01.html#section-18",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Woher stammt der Datensatz?\n\n\nOffizielles UNESCO-Dataset von: https://ihp-wins.unesco.org/dataset/unesco-world-heritage-sites\nAutor:innen: Chloé Meyer (Creator) und Pablo Rojas (Maintainer)\nenthält keine weiteren Metadaten-Angaben"
+  },
+  {
+    "objectID": "SoSe2025-Statistik_01.html#section-19",
+    "href": "SoSe2025-Statistik_01.html#section-19",
+    "title": "Übung Modul 6",
+    "section": "",
+    "text": "Dataset-Inhalt. Shapefile für Geoinformationssysteme mit Attributen."
+  }
+]

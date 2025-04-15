@@ -16,10 +16,10 @@ output-dir: docs
 |16.04.|Einführung & Installationen| - |
 |23.04.|Empirische Forschung und Kulturerbe| - |
 |(30.04.)| – entfällt  – | - |
-|07.05.|Häufigkeitsverteilungen||
-|14.05.|Mittelwerte und Streuung||
-|21.05.|Stichprobe und Grundgesamtheit||
-|28.05.|Hypothesentesten||
+|07.05.|Häufigkeitsverteilungen|[Quantifying Kissinger](https://blog.quantifyingkissinger.com/)|
+|14.05.|Mittelwerte und Streuung|[WWI Soldier Fatalities From Minnesota](https://sites.google.com/macalester.edu/ww1-digital-humanities-project/home)|
+|21.05.|Stichprobe und Grundgesamtheit|[North Atlantic Population Project](https://www.nappdata.org/napp/)|
+|28.05.|Hypothesentesten|[Projekt DisKo](https://msternchenw.de/disko-das-diversitaets-korpus/)|
 
 # {.smaller}
 <h1 style="font-size:2.0em">Überblick II</h1>
@@ -27,7 +27,7 @@ output-dir: docs
 
 |Termin|Thema|Projekt|
 |------|-----|-----|
-|04.06.|Darstellungstechniken und Datenaufbereitung||
+|04.06.|Darstellungstechniken und Datenaufbereitung|[Mondrian](https://www.theusrus.de/Mondrian/)|
 |11.06.|UNESCO-Datensatz mit Python I| - |
 |18.06.|UNESCO-Datensatz mit Python II| - |
 |25.06.|UNESCO-Datensatz mit R I| - |
