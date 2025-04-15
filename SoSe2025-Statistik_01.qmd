@@ -1,7 +1,9 @@
 ---
 title: "Übung Modul 6"
 subtitle: "Grundlagen der quantitativen Analyse und Visualisierung digitaler Information <br></br> 16. April 2025"
-format: revealjs
+format: 
+  revealjs:
+    theme: default
 footer: |
       **Dr. Franziska Klemstein** | © 2025 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 output-dir: docs
@@ -63,25 +65,26 @@ sudo apt install r-base
 
 ```
 
-<img src="img/install_r.png" alt="Installation von R">
-
 <li>Installation von RStudio</li>
 
-Download der entsprechenden Installationsdatei: 
+* Download der entsprechenden Installationsdatei: 
 <a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a>
 
 </ol>
 
 ---
 
-Überprüfung ob R installiert ist und in welcher Version:
-<img src="img/Linux_R.png">
-<img src="img/Linux_rstudio.png">
+Überprüfen, ob R installiert ist und in welcher Version:
 
-<p style="text-align: center; font-size: 0.8em; margin-top: 0.5em;">
-  Überprüfung der Installation von R (oben) RStudio (unten).
-</p>
+```
+R --version
+```
 
+Überprüfen, ob RStudio installiert ist und in welcher Version:
+
+```
+rstudio --version
+```
 
 
 ##
@@ -91,14 +94,12 @@ Download der entsprechenden Installationsdatei:
 <ol>
 <li>Installation von R</li>
 
-<img src="img/install_r.png" alt="Installation von R">
+* Auruf der Seite: <a href="https://cran.r-project.org/">cran.r-project.org</a>
+* Download R for macOS
 
 <li>Installation von RStudio</li>
 
-```
-# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/
-
-```
+* Download der entsprechenden Installationsdatei: <a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a>
 
 </ol>
 
@@ -106,32 +107,43 @@ Download der entsprechenden Installationsdatei:
 
 Überprüfung ob R installiert ist und in welcher Version:
 
-<img src="img/r-version.png" alt="Überprüfung R Version">
+```
+R --version
+```
 
----
+RStudio installieren:<br>
+<img src="https://wiki.fernuni-hagen.de/helpdesk/images/2/22/DownloadRStudio1.png" width="600" alt="RStudio auf Mac">
 
-RStudio installieren:
-<img src="img/install_rstudio_mac.png" alt="RStudio auf Mac">
+<p style="font-size: 0.6em; margin-top: 0.5em;">
+  Bildquelle: <a href="https://wiki.fernuni-hagen.de/helpdesk/index.php?title=Installation_von_R_und_RStudio_unter_MacOS">Fernuniversität Hagen, Helpdesk</a>.
+</p>
+
 
 ##
 
 <span style="font-size: 42px;">Installation Windows</span>
 
 <ol>
-<li>Installation von R</li>
-
-<img src="img/Download_R_Win.png" width="400">
-<img src="img/Install_exe.png" width="200">
-<img src="img/R_GUI_Win.png" width="350">
-
-<li>Installation von RStudio</li>
-
-```
-# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/
-
-```
-
+  <li>Installation von R</li>
 </ol>
+<div style="display: flex; justify-content: center; gap: 2em; align-items: center;">
+  <img src="https://wiki.fernuni-hagen.de/helpdesk/images/6/65/DownloadRWin1.png" alt="Download R für Win" width="600">
+
+  <img src="https://www.oreilly.com/api/v2/epubs/9781449377502/files/httpatomoreillycomsourceoreillyimages645480.png" alt="R GUI Win" width="500">
+</div>
+<p style="text-align: center; font-size: 0.6em; margin-top: 0.5em;">
+  Bildquelle: [Fernuniversität Hagen, Helpdesk](https://wiki.fernuni-hagen.de/helpdesk/index.php?title=Installation_von_R_und_RStudio_unter_Windows).
+</p>
+
+
+---
+<ol>
+<li>Installation von RStudio</li>
+</ol>
+
+*  Download der entsprechenden Installationsdatei: <a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a>
+
+
 
 
 ## {.smaller}
@@ -151,13 +163,16 @@ Programmiersprache Python und Entwicklungsumgebung <a href="https://en.wikipedia
 
 ## {.smaller}
 
-Installation Linux, Mac und Windows
-
-<img src="img/Download_QGIS.png" width=500>
-<p style="text-align: center; font-size: 0.8em; margin-top: 0.5em;">
+Installation Linux, Mac und Windows ...
+<br></br>
+<img src="https://qgis.org/resources/installation-guide/img/icons.png" width=800>
+<p style="text-align: center; font-size: 0.8em; margin-top: 4.5em;">
+<br></br>
 <a href="https://qgis.org/download/">Download-Seite von QGIS</a>
 </p>
-
+<p style="font-size: 0.6em; margin-top: 10.5em;">
+  Bildquelle: [https://qgis.org/resources/installation-guide/](https://qgis.org/resources/installation-guide/).
+</p>
 
 
 # Einführung
@@ -199,11 +214,11 @@ Installation Linux, Mac und Windows
 ::::
 
 :::: column
-<img src="img/Piper_ThereWillBeNumbers.png" width="100%">
+<img src="https://static1.squarespace.com/static/6665cbc40f7d140b229fbc7a/6665cc8f8c31fc11c5fa793f/6665cc8f8c31fc11c5fa79c7/1717952271012/IMG_9546.jpeg" width="100%">
 ::::
 :::
 <small>
-<a href="https://ubmz.hds.hebis.de/Record/HEB319188922">Franco Moretti: Distant Reading, London 2013.</a> Sowie: <a href="https://culturalanalytics.org/article/11062-there-will-be-numbers">Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016.</small>
+<a href="https://ubmz.hds.hebis.de/Record/HEB319188922">Franco Moretti: Distant Reading, London 2013.</a> Sowie: <a href="https://culturalanalytics.org/article/11062-there-will-be-numbers">Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016.</a> Bildquelle: <a href="https://andrewpiper.ai/about/publications">https://andrewpiper.ai/about/publications</a></small>
 
 ## {.smaller}
 <h2 style="font-size:1.2em">Der Mythos der „zwei Kulturen“</h2> 
@@ -265,8 +280,9 @@ Quelle: https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/
 
 ##
 
-<img src="img/UNESCO-Dataset_Map.png" width="700">
-<img src="img/UNESCO-Dataset_Attributtabelle.png" width="600">
+UNESCO-Dataset_Map.png
+UNESCO-Dataset_Attributtabelle.png
+
 
 <small>Dataset-Inhalt. Shapefile für Geoinformationssysteme mit Attributen.</small>
 

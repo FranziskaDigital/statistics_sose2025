@@ -11,21 +11,21 @@
     "href": "SoSe2025-Statistik_01.html#section-3",
     "title": "Übung Modul 6",
     "section": "",
-    "text": "Installation Linux\n\n\nInstallation von R\n\nsudo apt install r-base\n\n\n\nInstallation von RStudio\n\nDownload der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
+    "text": "Installation Linux\n\n\nInstallation von R\n\nsudo apt install r-base\n\n\nInstallation von RStudio\n\n\nDownload der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
   },
   {
     "objectID": "SoSe2025-Statistik_01.html#section-4",
     "href": "SoSe2025-Statistik_01.html#section-4",
     "title": "Übung Modul 6",
     "section": "",
-    "text": "Installation Mac\n\n\nInstallation von R\n\n\n\nInstallation von RStudio\n\n# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
+    "text": "Installation Mac\n\n\nInstallation von R\n\n\nAuruf der Seite: cran.r-project.org\nDownload R for macOS\n\n\nInstallation von RStudio\n\n\nDownload der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
   },
   {
     "objectID": "SoSe2025-Statistik_01.html#section-5",
     "href": "SoSe2025-Statistik_01.html#section-5",
     "title": "Übung Modul 6",
     "section": "",
-    "text": "Installation Windows\n\n\nInstallation von R\n\n  \n\nInstallation von RStudio\n\n# Download der entsprechenden Installationsdatei: https://posit.co/download/rstudio-desktop/"
+    "text": "Installation Windows\n\n\nInstallation von R\n\n\n\n\n\n\n\nBildquelle: Fernuniversität Hagen, Helpdesk."
   },
   {
     "objectID": "SoSe2025-Statistik_01.html#section-6",
@@ -46,7 +46,7 @@
     "href": "SoSe2025-Statistik_01.html#section-8",
     "title": "Übung Modul 6",
     "section": "",
-    "text": "Installation Linux, Mac und Windows\n\n\nDownload-Seite von QGIS"
+    "text": "Installation Linux, Mac und Windows …  \n\n Download-Seite von QGIS\n\n\nBildquelle: https://qgis.org/resources/installation-guide/."
   },
   {
     "objectID": "SoSe2025-Statistik_01.html#section-9",
@@ -74,7 +74,7 @@
     "href": "SoSe2025-Statistik_01.html#section-12",
     "title": "Übung Modul 6",
     "section": "",
-    "text": "Franco Moretti Distant Reading & Andrew Piper There Will Be Numbers\n\n\n\n\n\n\n\n\n Franco Moretti: Distant Reading, London 2013. Sowie: Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016."
+    "text": "Franco Moretti Distant Reading & Andrew Piper There Will Be Numbers\n\n\n\n\n\n\n\n\n Franco Moretti: Distant Reading, London 2013. Sowie: Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016. Bildquelle: https://andrewpiper.ai/about/publications"
   },
   {
     "objectID": "SoSe2025-Statistik_01.html#section-13",
@@ -123,6 +123,6 @@
     "href": "SoSe2025-Statistik_01.html#section-19",
     "title": "Übung Modul 6",
     "section": "",
-    "text": "Dataset-Inhalt. Shapefile für Geoinformationssysteme mit Attributen."
+    "text": "UNESCO-Dataset_Map.png UNESCO-Dataset_Attributtabelle.png\nDataset-Inhalt. Shapefile für Geoinformationssysteme mit Attributen."
   }
 ]
