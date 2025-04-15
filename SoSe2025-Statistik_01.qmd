@@ -192,7 +192,7 @@ Installation Linux, Mac und Windows ...
 ## {.smaller}
 <h2 style="font-size:1.2em">Quantitative Analysen</h2>
 
-* Quantitative Analysemethoden sind in erster Linie darauf ausgerichtet, Merkmale von Forschungsgegenständen zu identifizieren und ihre Häufigkeiten zu ergeben. Das beduetet, dass es möglichst eindeutige und teils auch Komplexität reduzierende Kategorisierungen erfordert, um auf dieser Grundlage statistische Verfahren anwenden zu können. Quantitative Analysen zielen darauf ab, relevante Bestandteile eines Datensatzes oder Strukturen in Daten zu identifizieren sowie weiterführende statistische Auswertungen von Datensammlungen durchzuführen. <br>
+* Quantitative Analysemethoden sind in erster Linie darauf ausgerichtet, Merkmale von Forschungsgegenständen zu identifizieren und ihre Häufigkeiten zu erheben. Das beduetet, dass es möglichst eindeutige und teils auch Komplexität reduzierende Kategorisierungen erfordert, um auf dieser Grundlage statistische Verfahren anwenden zu können. Quantitative Analysen zielen darauf ab, relevante Bestandteile eines Datensatzes oder Strukturen in Daten zu identifizieren sowie weiterführende statistische Auswertungen von Datensammlungen durchzuführen. <br>
 
 <small>Quelle: Vgl. Christoph Schöch: Quantitative Analysen, in: Fotis Jannidis et al.: Digital Humanities, Stuttgart 2017, S. 279.</small>
 
@@ -214,11 +214,12 @@ Installation Linux, Mac und Windows ...
 ::::
 
 :::: column
-<img src="https://static1.squarespace.com/static/6665cbc40f7d140b229fbc7a/6665cc8f8c31fc11c5fa793f/6665cc8f8c31fc11c5fa79c7/1717952271012/IMG_9546.jpeg" width="100%">
+<img src="/img/Piper.png" width="100%">
 ::::
 :::
 <small>
-<a href="https://ubmz.hds.hebis.de/Record/HEB319188922">Franco Moretti: Distant Reading, London 2013.</a> Sowie: <a href="https://culturalanalytics.org/article/11062-there-will-be-numbers">Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016.</a> Bildquelle: <a href="https://andrewpiper.ai/about/publications">https://andrewpiper.ai/about/publications</a></small>
+<a href="https://ubmz.hds.hebis.de/Record/HEB319188922">Franco Moretti: Distant Reading, London 2013.</a> Sowie: <a href="https://culturalanalytics.org/article/11062-there-will-be-numbers">Andrew Piper: There Will Be Numbers, in: Journal of Cultural Analytics May 23, 2016.</a>
+</small>
 
 ## {.smaller}
 <h2 style="font-size:1.2em">Der Mythos der „zwei Kulturen“</h2> 
@@ -258,7 +259,7 @@ Installation Linux, Mac und Windows ...
 * Aufgaben: beraten, vernetzen, vermitteln
 * „Erfurter Erklärung“ vom 21. Juni 2024
 
-Quelle: https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/
+Quelle: <a href="https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/">https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/</a>
 
 ## {.smaller}
 <h2 style="font-size:1.2em">Was ist „Welterbe“?</h2>
@@ -280,14 +281,21 @@ Quelle: https://www.unesco.de/ueber-uns/ueber-die-deutsche-unesco-kommission/
 
 ##
 
-UNESCO-Dataset_Map.png
-UNESCO-Dataset_Attributtabelle.png
+<img src="img/UNESCO-Dataset_Map.png" width="600"></a>
+<img src="/img/UNESCO-Dataset_Attributtabelle.png" width="450"></a>
 
 
 <small>Dataset-Inhalt. Shapefile für Geoinformationssysteme mit Attributen.</small>
 
 # Seminarziele
 
+## {.smaller}
+
+* die Verfahren der deskriptiven Statistik verstehen;
+* die Verfahren der prüfenden und explorativen Statistik kennen;
+* geeignete Verfahren zur Visualisierung quantitativer Daten beurteilen und umsetzen können;
+* verschiedenen DH-Projekte kennenlernen, die statische/quantitative Methoden nutzen;
+* Vertiefung der kennengelernten Verfahren am Beispiel des UNESCO-Welterbedatensatzes
 
 
 
